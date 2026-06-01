@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ideal Mineral Company Private Limited is Pakistan's trusted mining & mineral export partner. Premium Himalayan Pink Salt, Lamps, Tiles, Industrial Minerals worldwide.">
+  <meta name="keywords" content="Ideal Mineral Company, Pink Salt Pakistan, Himalayan Salt Export, Pink Salt Lamps, Industrial Minerals, Mining Company Islamabad">
+  <meta name="author" content="Ideal Mineral Company">
+  <title>Ideal Mineral Company | Pakistan's Premium Mineral Export Partner</title>
+  
+  <!-- --- FAVICON --- -->
+  <link rel="icon" type="image/png" href="assets/gallery/salt_packet.png">
+
+  <!-- --- GOOGLE FONTS & STYLES --- -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- --- ICONS (Boxicons) --- -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- --- THREE.JS (3D Engine) --- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- --- GSAP & ScrollTrigger --- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- --- SEO SCHEMA METADATA --- -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MiningCompany",
+    "name": "Ideal Mineral Company Private Limited",
+    "description": "Pakistan's Trusted Mining & Mineral Export Partner. Exporting premium Himalayan Pink Salt Lumps, Lamps, Tiles & industrial minerals worldwide.",
+    "telephone": "+923028513097",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "D10, Office No. 4,5, Plot No. G8 Markaz Road, G-8/2",
+      "addressLocality": "Islamabad",
+      "postalCode": "44080",
+      "addressCountry": "PK"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "33.6938",
+      "longitude": "73.0483"
+    },
+    "url": "https://idealmineral.com",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "11"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- --- FIXED FLOATING WHATSAPP BUTTON --- -->
+  <a href="https://wa.me/923028513097" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="bx bxl-whatsapp"></i>
+  </a>
+
+  <!-- --- HEADER / NAVIGATION --- -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo-wrapper">
+        <div class="logo-icon">IM</div>
+        <div class="logo-text">
+          IDEAL MINERAL
+          <span>Pvt Ltd • Islamabad</span>
+        </div>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#why-us" class="nav-link">Why Choose Us</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">Request Quote</a>
+      </div>
+
+      <div class="menu-toggle" id="menuToggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- --- HERO SECTION --- -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <!-- Three.js Interactive 3D Canvas element -->
+    <div id="hero-canvas"></div>
+    
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="bx bxs-star" style="color: var(--gold-primary);"></i>
+          <span>Pakistan's Premier Mining Corporation</span>
+        </div>
+        <h1 class="hero-title">
+          Pakistan's Trusted <br>
+          <span class="gold-text">Mining & Mineral</span> <br>
+          Export Partner
+        </h1>
+        <p class="hero-subtitle">
+          Delivering premium grade Himalayan Pink Salt, luxury salt crafts, structural tiles, industrial minerals, and tailored mineral solutions directly to global ports.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Request Quote <i class="bx bx-right-arrow-alt" style="margin-left: 0.5rem;"></i></a>
+          <a href="#about" class="btn btn-secondary">Explore Operations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- ABOUT US SECTION --- -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <span class="section-tag">Corporate Profile</span>
+          <h2 class="section-title">About Ideal Mineral Company</h2>
+          <p class="about-text">
+            Ideal Mineral Company Private Limited is an elite mining and mineral export enterprise headquartered in Islamabad, Pakistan. We specialize in precision extraction, premium processing, advanced manufacturing, and safe logistics of authentic Himalayan Pink Salt and minerals.
+          </p>
+          <p class="about-text" style="margin-bottom: 2.5rem;">
+            From our strategic mines in the Salt Range to our state-of-the-art facilities, our deep commitment to rigorous quality control, modern technological extraction, and sustainable eco-friendly practices has established us as a preferred global supply partner.
+          </p>
+          
+          <div class="about-features">
+            <div class="about-feat-item">
+              <i class="bx bxs-check-shield"></i>
+              <span>Professional Mining Team</span>
+            </div>
+            <div class="about-feat-item">
+              <i class="bx bxs-award"></i>
+              <span>Premium Grade Certification</span>
+            </div>
+            <div class="about-feat-item">
+              <i class="bx bxs-globe"></i>
+              <span>Global Export Network</span>
+            </div>
+            <div class="about-feat-item">
+              <i class="bx bxs-truck"></i>
+              <span>Bulletproof Logistics Chain</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-secondary">Download Brochure <i class="bx bx-download" style="margin-left: 0.5rem;"></i></a>
+        </div>
+
+        <div class="about-visual">
+          <div class="about-img-frame">
+            <!-- Utilizing the real mine crystals photo provided by the user -->
+            <img src="assets/gallery/mine_crystals.png" alt="Ideal Mineral Pink Salt Crystal Mine Face">
+          </div>
+          <div class="about-badge-card">
+            <span class="about-badge-val">5.0</span>
+            <span class="about-badge-lbl">Google Rating</span>
+            <div class="test-stars" style="margin: 0.25rem 0 0 0;">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- PRODUCTS SECTION --- -->
+  <section class="products" id="products">
+    <div class="container">
+      <span class="section-tag">Product Catalog</span>
+      <h2 class="section-title">Our Work And Product</h2>
+      <p class="section-desc">
+        Delivering an elite selection of hand-sorted gourmet mineral blends, clinical wellness components, raw cavern rocks, and customized private label cargo.
+      </p>
+
+      <div class="products-grid">
+        
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/portfolio_jars_collage.jpg" alt="Ideal Minerals Artisanal Salt Blend & Grind">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Retail Premium</span>
+            <h3 class="product-name">Artisanal Salt Blend & Grind</h3>
+            <p class="product-desc">Deluxe kitchen-ready spice grinders and matching raw glass jars packed with our finest hand-selected pink culinary crystals and premium custom herb blends.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/portfolio_jars_kitchen.jpg" alt="Ideal Minerals Wellness & Decor Pure Crystals">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Lifestyle & Wellness</span>
+            <h3 class="product-name">Wellness & Decor Pure Crystals</h3>
+            <p class="product-desc">Pure translucent pink rock crystals presented in high-end tabletop jars and functional spice grinders, perfect for luxury wellness styling and organic cooking.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/portfolio_panels_collage.jpg" alt="Ideal Minerals Gourmet Salt Sampler Collection">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Gourmet Box Set</span>
+            <h3 class="product-name">Gourmet Salt Sampler Collection</h3>
+            <p class="product-desc">An elegant, luxury-branded sampler drawer collection showcasing our range of fine, coarse, and artisanal seasonings curated for high-end international culinary retail.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/product_salt_lumps.png" alt="Himalayan Pink Salt Lumps">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Industrial & Food Grade</span>
+            <h3 class="product-name">Himalayan Pink Salt Lumps</h3>
+            <p class="product-desc">Pure raw rocks harvested directly from natural layers, suited for bulk mill crushing, chemical processes, and high-volume raw trade operations.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/product_salt_lamps.png" alt="Himalayan Pink Salt Lamps">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Ethereal Decor</span>
+            <h3 class="product-name">Himalayan Pink Salt Lamps</h3>
+            <p class="product-desc">Bespoke rock lamps emitting a rich, soothing amber ionization glow, designed to cleanse indoor air while acting as premium architectural design statements.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/gallery/salt_bricks_warehouse.jpg" alt="Himalayan Pink Salt Tiles & Bricks">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Architecture</span>
+            <h3 class="product-name">Himalayan Pink Salt Tiles & Bricks</h3>
+            <p class="product-desc">Precision-sliced tiles and heavy structural blocks for building luxurious wellness chambers, salt spas, feature partitions, and modern heat rooms.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/gallery/raw_lumps.png" alt="Industrial Minerals">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Raw Resources</span>
+            <h3 class="product-name">Industrial Minerals</h3>
+            <p class="product-desc">High-volume raw white and pink industrial minerals exported globally for water softeners, chemical operations, and heavy road treatments.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/gallery/salt_packet.png" alt="Custom Private Label Solutions">
+          </div>
+          <div class="product-info">
+            <span class="product-tag">Corporate Supply</span>
+            <h3 class="product-name">Custom Private Label Solutions</h3>
+            <p class="product-desc">Tailored mesh milling sizes, bespoke product designs, packaging, and custom labels made to exact corporate specifications for international retail.</p>
+            <div class="product-footer">
+              <a href="#contact" class="product-btn">Get Quote <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- WHY CHOOSE US --- -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <span class="section-tag">Value Proposition</span>
+      <h2 class="section-title">The Ideal Advantage</h2>
+      <p class="section-desc">
+        Uncompromising excellence across each extraction cycle, export standard, and corporate customer journey.
+      </p>
+
+      <!-- Stat Cards -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="bx bxs-badge-check"></i></div>
+          <div class="stat-number" data-target="11">+11</div>
+          <div class="stat-label">Verified Reviews</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="bx bxs-star"></i></div>
+          <div class="stat-number" data-target="5.0" data-decimal="true">5.0</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="bx bxs-heart"></i></div>
+          <div class="stat-number" data-target="100">100%</div>
+          <div class="stat-label">Customer Satisfaction</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="bx bxs-time-five"></i></div>
+          <div class="stat-number" data-target="24">24/7</div>
+          <div class="stat-label">Customer Support</div>
+        </div>
+      </div>
+
+      <!-- Detail Features Grid -->
+      <div class="why-features-grid">
+        <div class="why-feat-info">
+          <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.3;">
+            Unlocking Scale, Quality & Supply Continuity
+          </h3>
+          <p style="color: var(--text-gray); margin-bottom: 2rem; line-height: 1.8;">
+            Operating high-yield salt reserves with meticulous mechanical sorting, heavy washing, precision milling, and moisture-controlled packaging facilities. Ideal Mineral ensures that every grain or block delivered meets the strictest global industry specifications.
+          </p>
+          <a href="#contact" class="btn btn-primary">Connect With Experts</a>
+        </div>
+
+        <div class="why-benefits-list">
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bxs-circle-three-quarter"></i> Premium Quality Minerals</h4>
+            <p class="benefit-desc">Maximum purity ratings, rich trace minerals, and gorgeous authentic rose-pink coloration.</p>
+          </div>
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bx-globe"></i> Export Standards</h4>
+            <p class="benefit-desc">Compliant with heavy metals safety regulations and global border inspection codes.</p>
+          </div>
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bxs-hard-hat"></i> Mining Operations</h4>
+            <p class="benefit-desc">High safety protocols, precise sorting machinery, and structured volume extraction.</p>
+          </div>
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bxs-time"></i> Timely Deliveries</h4>
+            <p class="benefit-desc">Tight schedules, fast processing turnaround times, and reliable seaport transport routes.</p>
+          </div>
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bxs-smile"></i> Client Centricity</h4>
+            <p class="benefit-desc">Bespoke packages, private branding options, transparent metrics, and live delivery updates.</p>
+          </div>
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bxs-group"></i> Veteran Team</h4>
+            <p class="benefit-desc">Experienced engineers, extraction supervisors, and professional international trade handlers.</p>
+          </div>
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bxs-leaf"></i> Sustainable Mining</h4>
+            <p class="benefit-desc">Low ecological impacts, safe cave setups, and green waste minimization protocols.</p>
+          </div>
+          <div class="benefit-card">
+            <h4 class="benefit-title"><i class="bx bxs-offer"></i> Pricing Structure</h4>
+            <p class="benefit-desc">Competitive quotes, cost-effective shipping networks, and wholesale bulk discounts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- TIMELINE / OPERATIONS PROCESS --- -->
+  <section class="process" id="process">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 5rem;">
+        <span class="section-tag">Workflow Blueprint</span>
+        <h2 class="section-title" style="margin-bottom: 0;">Our Strategic Mining-to-Export Pipeline</h2>
+      </div>
+
+      <div class="timeline">
+        
+        <!-- Step 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-step">Step 01</span>
+            <h3 class="timeline-title"><i class="bx bxs-drill"></i> Mining & Extraction</h3>
+            <p class="timeline-desc">Extracted using safe techniques inside historic caverns. Experienced field engineers isolate maximum mineral grades, minimizing fracture faults in large block units.</p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-step">Step 02</span>
+            <h3 class="timeline-title"><i class="bx bxs-zoom-in"></i> Quality Inspection</h3>
+            <p class="timeline-desc">Each rock segment is scrutinized by quality supervisors. We strictly sort crystals by purity metrics, pink tone saturation, and size density.</p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-step">Step 03</span>
+            <h3 class="timeline-title"><i class="bx bxs-cog"></i> Processing & Crafting</h3>
+            <p class="timeline-desc">Raw items are washed, air-dried, and custom milled. Experienced local craftsmen hand-carve luxury glowing lamps and cut precision salt building bricks.</p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-step">Step 04</span>
+            <h3 class="timeline-title"><i class="bx bxs-box"></i> Moisture-Controlled Packaging</h3>
+            <p class="timeline-desc">Secured inside double-barrier polymer bags to lock out marine moisture during transit. Rigid containers and wooden crates protect tiles and decorative shapes.</p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-step">Step 05</span>
+            <h3 class="timeline-title"><i class="bx bxs-ship"></i> Worldwide Port Export</h3>
+            <p class="timeline-desc">Shipped through major seaports directly to Europe, Americas, Middle East, and Asia. Complete logistical documents, customs, and certificates sorted.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- GALLERY SECTION --- -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <span class="section-tag">Industrial Gallery</span>
+      <h2 class="section-title">Visualizing Our Scale & Products</h2>
+      <p class="section-desc">
+        A photographic window showing our operations, packaged products, and real-world mine logistics. Click any photo to expand.
+      </p>
+
+      <div class="gallery-grid">
+        
+        <!-- Large Item: Authentic Salt Packet -->
+        <div class="gallery-item large">
+          <img src="assets/gallery/mine_inspection.jpg" alt="Ideal Mineral Cavern Inspection">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">Cavern Quality Inspection</h3>
+            <p class="gallery-subtitle">Expert geologists assessing a newly extracted, illuminated block of grade-A pink rock salt inside the cave.</p>
+          </div>
+        </div>
+
+        <!-- Item 2: Raw Salt Lumps -->
+        <div class="gallery-item">
+          <img src="assets/gallery/raw_lumps.png" alt="Raw Himalayan Salt Lumps Pile">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">Raw Salt Chunks</h3>
+            <p class="gallery-subtitle">Bulk Lumps Export Pile</p>
+          </div>
+        </div>
+
+        <!-- Item 3: Mine Crystals close-up -->
+        <div class="gallery-item">
+          <img src="assets/gallery/mine_crystals.png" alt="Pink Salt Cave Face Crystals">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">Crystalline Cave Wall</h3>
+            <p class="gallery-subtitle">Underground Pink Salt Wall layers</p>
+          </div>
+        </div>
+
+        <!-- Item 4: Stacked Salt bricks warehouse -->
+        <div class="gallery-item">
+          <img src="assets/gallery/salt_bricks_warehouse.jpg" alt="Stacked Salt Bricks in Factory">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">Factory Warehouse</h3>
+            <p class="gallery-subtitle">Stacked Building Salt Bricks and architectural tiles</p>
+          </div>
+        </div>
+
+        <!-- Item 5: Mining vehicle jeep -->
+        <div class="gallery-item">
+          <img src="assets/gallery/mine_jeep.jpg" alt="Mining Jeep near Salt Cave Portal">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">Salt Range Access Portal</h3>
+            <p class="gallery-subtitle">Operations Logistical Jeep outside the historic cavern mine entrance</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- LIGHTBOX PORTAL MODAL --- -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <span class="lightbox-close" id="lightboxClose">&times;</span>
+      <img src="" alt="Expanded Preview" class="lightbox-img" id="lightboxImg">
+    </div>
+  </div>
+
+  <!-- --- TESTIMONIALS SECTION --- -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <span class="section-tag">Client Reviews</span>
+      <h2 class="section-title">Endorsements from Key Partners</h2>
+      <p class="section-desc">
+        Honest feedback validating our premium grade products and professional service delivery.
+      </p>
+
+      <div class="testimonial-track">
+        
+        <!-- Review 1 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="test-stars">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </div>
+            <p class="test-text">
+              "Pink salt is very good in Islamabad. Hope you will maintain your quality."
+            </p>
+          </div>
+          <div class="test-user">
+            <div class="test-avatar">ES</div>
+            <div>
+              <h4 class="test-name">Ehsam Satti</h4>
+              <span class="test-desc">Local Distributor</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="test-stars">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </div>
+            <p class="test-text">
+              "Good service. One of the best mining companies."
+            </p>
+          </div>
+          <div class="test-user">
+            <div class="test-avatar">CH</div>
+            <div>
+              <h4 class="test-name">Ch Hasham</h4>
+              <span class="test-desc">Supply Chain Manager</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="test-stars">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </div>
+            <p class="test-text">
+              "Thoroughly professional. Best salt mining company."
+            </p>
+          </div>
+          <div class="test-user">
+            <div class="test-avatar">KA</div>
+            <div>
+              <h4 class="test-name">Khurram Aftab</h4>
+              <span class="test-desc">International Trader</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="test-stars">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </div>
+            <p class="test-text">
+              "Pioneer in salt crafted items."
+            </p>
+          </div>
+          <div class="test-user">
+            <div class="test-avatar">IQ</div>
+            <div>
+              <h4 class="test-name">Itx Qasim</h4>
+              <span class="test-desc">Product Retailer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="test-stars">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </div>
+            <p class="test-text">
+              "One of the best mining companies."
+            </p>
+          </div>
+          <div class="test-user">
+            <div class="test-avatar">MH</div>
+            <div>
+              <h4 class="test-name">Malik Hashim</h4>
+              <span class="test-desc">Commercial Client</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- CONTACT SECTION & INTERACTIVE FORMS --- -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <span class="section-tag">Inquire Globally</span>
+      <h2 class="section-title">Initiate Your Mineral Order</h2>
+      <p class="section-desc">
+        Contact our Islamabad headquarters. Our logistics team handles sea exports, bulk orders, and custom crafted requirements.
+      </p>
+
+      <div class="contact-grid">
+        
+        <!-- Contact Info -->
+        <div class="contact-info-panel">
+          <div class="contact-details">
+            
+            <!-- Address -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bx bxs-map"></i></div>
+              <div class="contact-text">
+                <h4>Headquarters Address</h4>
+                <p>D10, Office No. 4,5, Plot No. G8 Markaz Road, G-8/2, Islamabad 44080, Pakistan</p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bx bxs-phone"></i></div>
+              <div class="contact-text">
+                <h4>Call & Operations Hotline</h4>
+                <p>+92 302 8513097</p>
+              </div>
+            </div>
+
+            <!-- Business Hours -->
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bx bxs-time"></i></div>
+              <div class="contact-text">
+                <h4>Business Operations Hours</h4>
+                <p>Monday - Saturday: 09:00 AM - 06:00 PM</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem;">Direct WhatsApp Operations Support</h4>
+            <a href="https://wa.me/923028513097" class="whatsapp-badge" target="_blank">
+              <i class="bx bxl-whatsapp" style="font-size: 1.5rem;"></i>
+              Message +92 302 8513097
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contactForm">
+          
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" class="form-input" placeholder="e.g. John Doe" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Corporate Email *</label>
+            <input type="email" id="email" class="form-input" placeholder="e.g. john@company.com" required>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="product">Select Desired Product</label>
+            <input type="text" id="product" class="form-input" placeholder="e.g. Himalayan Pink Salt Tiles / Lumps">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Detailed Inquiry Description *</label>
+            <textarea id="message" class="form-input" placeholder="Please outline volume metrics, destination port, sizing details..." required></textarea>
+          </div>
+
+          <div class="form-status" id="formStatus"></div>
+
+          <button type="submit" class="btn btn-primary full-width" style="margin-top: 1rem;">
+            Submit Corporate Inquiry <i class="bx bx-send" style="margin-left: 0.5rem;"></i>
+          </button>
+
+          <!-- Embedded Map -->
+          <div class="map-container full-width">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.4678887965416!2d73.04581457597143!3d33.69382217329486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf9df18c7d3d%3A0x6b9d628eb47796d1!2sG-8%20Markaz%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#home" class="logo-wrapper" style="margin-bottom: 1.5rem;">
+            <div class="logo-icon">IM</div>
+            <div class="logo-text" style="color: #fff;">
+              IDEAL MINERAL
+              <span style="color: var(--gold-primary);">Pvt Ltd</span>
+            </div>
+          </a>
+          <p>
+            An international standard mineral mining and export corporation based in Islamabad, Pakistan. Proud suppliers of authentic Himalayan pink minerals worldwide.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://wa.me/923028513097" class="social-icon" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-title">Corporate</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#why-us">Why Choose Us</a>
+            <a href="#process">Operations Blueprint</a>
+            <a href="#gallery">Industrial Gallery</a>
+            <a href="#contact">Contact & Support</a>
+          </div>
+        </div>
+
+        <!-- Products List -->
+        <div>
+          <h4 class="footer-title">Product Lines</h4>
+          <div class="footer-links">
+            <a href="#products">Pink Salt Lumps</a>
+            <a href="#products">Glow Salt Lamps</a>
+            <a href="#products">Building Tiles</a>
+            <a href="#products">Agricultural Animal Licks</a>
+            <a href="#products">Industrial Mineral Salt</a>
+            <a href="#products">Crafted Salt Accents</a>
+          </div>
+        </div>
+
+        <!-- Address & Google Badge -->
+        <div>
+          <h4 class="footer-title">Headquarters Office</h4>
+          <p style="margin-bottom: 1.5rem; line-height: 1.7;">
+            D10, Office No. 4,5, Plot No. G8 Markaz Road, G-8/2, Islamabad 44080, Pakistan
+          </p>
+          <p style="margin-bottom: 0.5rem; font-weight: 700; color: var(--text-white);">
+            Direct Operations Line:
+          </p>
+          <p style="color: var(--gold-primary); font-weight: 700; font-size: 1.1rem; margin-bottom: 1.5rem;">
+            +92 302 8513097
+          </p>
+          
+          <!-- Rating Summary -->
+          <div style="background: rgba(255, 255, 255, 0.02); padding: 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: inline-flex; align-items: center; gap: 0.75rem;">
+            <i class="bx bxs-star" style="color: var(--gold-primary); font-size: 1.8rem;"></i>
+            <div>
+              <span style="font-weight: 800; font-size: 1.1rem; display: block; line-height: 1; color: #fff;">5.0 Stars</span>
+              <span style="font-size: 0.75rem; color: var(--text-muted);">Google Review Rating</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ideal Mineral Company Private Limited. All Rights Reserved.</p>
+        <p>Headquartered in Islamabad, Pakistan • Global Shipping Enabled</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- --- BOOTSTRAP APP LOGIC --- -->
+  <script src="app.js"></script>
+</body>
+</html>
